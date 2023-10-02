@@ -4,7 +4,7 @@ pipeline {
         stage('Source') {
             steps {
                 // Get  code from a GitHub repository
-                git 'https://github.com/Santosh7487/food-end-user.gitt'
+                git 'https://github.com/Santosh7487/food-end-user.git'
                 // Run npm install to install node modules
                 sh "npm install"
                 echo 'Source Stage Finished'
